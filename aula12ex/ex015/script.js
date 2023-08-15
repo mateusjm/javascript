@@ -35,19 +35,19 @@ function verificar(){
             if (idade >=0 && idade < 12){
                 // Criança
                 img.setAttribute('src', 'mulhercriança.jpg')
-                document.body.style.background = '#ffc0cbbd'
+                document.body.style.background = '#e04fb0cc'
             } else if (idade < 21){
                 // Jovem
                 img.setAttribute('src', 'mulherjovem.jpg')
-                document.body.style.background = '#ffc0cbbd'
+                document.body.style.background = '#e04fb0cc'
             } else if (idade < 50){
                 // Adulto
                 img.setAttribute('src', 'mulheradulta.jpg')
-                document.body.style.background = '#ffc0cbbd'
+                document.body.style.background = '#e04fb0cc'
             } else {
                 // Idoso
                 img.setAttribute('src', 'mulheridosa.jpg')
-                document.body.style.background = '#ffc0cbbd'
+                document.body.style.background = '#e04fb0cc'
             }
         }
         res.style.textAlign = 'center'
